@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+.biography {
+    font-size: 14px;
+    text-align: center;
+    max-width: 300px;
+    margin-top: 20px;
+    padding-bottom: 85px;
+    margin: 15px;
+}
+
+.biography p {
+    margin: 5px 0;
+}
+
+/* Kapatma (close) ikonu */
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
